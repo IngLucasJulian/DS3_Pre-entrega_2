@@ -1,0 +1,23 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Corpus preprocesado (se regenera al ejecutar el notebook)
+data/*_clean.csv
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Variables de entorno / credenciales
+.env
